@@ -1422,7 +1422,7 @@ var Client = function () {
           Accept: "application/json"
         };
         window.RIVET_TOKEN && (i.Authorization = "Bearer" + window.RIVET_TOKEN), fetch(
-          "https://turquoisefatalangle.devastio.repl.co/list", {
+          "https://matchmaker.cdevastio.repl.co/list", {
             headers: i
           }).then((e => {
           if (e.ok) return e.json();
@@ -2738,7 +2738,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: .5,
       soundLen: 3,
-      sound: ["https://devast.io/audio/hand-swing0.mp3", "https://devast.io/audio/hand-swing2.mp3", "https://devast.io/audio/hand-swing3.mp3"],
+      sound: ["audio/hand-swing0.mp3", "audio/hand-swing2.mp3", "audio/hand-swing3.mp3"],
       breath: .05,
       move: 3,
       delay: 300,
@@ -2760,7 +2760,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: .8,
       soundLen: 1,
-      sound: ["https://devast.io/audio/pickaxe-swing.mp3"],
+      sound: ["audio/pickaxe-swing.mp3"],
       weapon: {
         src: "https://devast.io/img/day-stone-pickaxe.png",
         img: {
@@ -2808,7 +2808,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: .8,
       soundLen: 1,
-      sound: ["https://devast.io/audio/pickaxe-swing.mp3"],
+      sound: ["audio/pickaxe-swing.mp3"],
       weapon: {
         src: "https://devast.io/img/day-steel-pickaxe.png",
         img: {
@@ -2856,7 +2856,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: .8,
       soundLen: 1,
-      sound: ["https://devast.io/audio/hatchet-swing.mp3"],
+      sound: ["audio/hatchet-swing.mp3"],
       weapon: {
         src: "https://devast.io/img/day-hachet.png",
         img: {
@@ -2904,7 +2904,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: .8,
       soundLen: 1,
-      sound: ["https://devast.io/audio/axe-swing.mp3"],
+      sound: ["audio/axe-swing.mp3"],
       weapon: {
         src: "https://devast.io/img/day-stone-axe.png",
         img: {
@@ -2951,7 +2951,7 @@ var Client = function () {
       soundDelay: .75,
       soundVolume: 1,
       soundLen: 1,
-      sound: ["https://devast.io/audio/spear-shot.mp3"],
+      sound: ["audio/spear-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-wood-spear.png",
         img: {
@@ -3005,7 +3005,7 @@ var Client = function () {
       soundDelay: 1.08,
       soundVolume: 1.4,
       soundLen: 1,
-      sound: ["https://devast.io/audio/bow-shot.mp3"],
+      sound: ["audio/bow-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-wood-bow.png",
         img: {
@@ -3061,7 +3061,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: 1,
       soundLen: 1,
-      sound: ["https://devast.io/audio/shotgun-shot.mp3"],
+      sound: ["audio/shotgun-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-shotgun.png",
         img: {
@@ -3116,7 +3116,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: 1,
       soundLen: 1,
-      sound: ["https://devast.io/audio/9mm-shot.mp3"],
+      sound: ["audio/9mm-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-9mm.png",
         img: {
@@ -3171,7 +3171,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: 1.3,
       soundLen: 1,
-      sound: ["https://devast.io/audio/desert-eagle-shot.mp3"],
+      sound: ["audio/desert-eagle-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-desert-eagle.png",
         img: {
@@ -3226,7 +3226,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: 1,
       soundLen: 1,
-      sound: ["https://devast.io/audio/ak47-shot.mp3"],
+      sound: ["audio/ak47-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-AK47.png",
         img: {
@@ -3281,7 +3281,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: 1,
       soundLen: 1,
-      sound: ["https://devast.io/audio/sniper-shot.mp3"],
+      sound: ["audio/sniper-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-sniper.png",
         img: {
@@ -3644,7 +3644,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: 1,
       soundLen: 1,
-      sound: ["https://devast.io/audio/mp5-shot.mp3"],
+      sound: ["audio/mp5-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-MP5.png",
         img: {
@@ -3719,7 +3719,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: .8,
       soundLen: 1,
-      sound: ["https://devast.io/audio/pickaxe-swing.mp3"],
+      sound: ["audio/pickaxe-swing.mp3"],
       weapon: {
         src: "https://devast.io/img/day-sulfur-pickaxe.png",
         img: {
@@ -3767,7 +3767,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: .8,
       soundLen: 1,
-      sound: ["https://devast.io/audio/hammer-swing.mp3"],
+      sound: ["audio/hammer-swing.mp3"],
       weapon: {
         src: "https://devast.io/img/day-hammer.png",
         img: {
@@ -4025,7 +4025,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: 1,
       soundLen: 1,
-      sound: ["https://devast.io/audio/crossbow-shot.mp3"],
+      sound: ["audio/crossbow-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-wood-crossbow.png",
         img: {
@@ -4080,7 +4080,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: 1,
       soundLen: 1,
-      sound: ["https://devast.io/audio/nail-gun-shot.mp3"],
+      sound: ["audio/nail-gun-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-nail-gun.png",
         img: {
@@ -4135,7 +4135,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: 1,
       soundLen: 1,
-      sound: ["https://devast.io/audio/shotgun-shot.mp3"],
+      sound: ["audio/shotgun-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-sawed-off-shotgun.png",
         img: {
@@ -4270,7 +4270,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: 1,
       soundLen: 1,
-      sound: ["https://devast.io/audio/laser-pistol-shot.mp3"],
+      sound: ["audio/laser-pistol-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-laser-pistol.png",
         img: {
@@ -4315,7 +4315,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: .8,
       soundLen: 1,
-      sound: ["https://devast.io/audio/axe-swing.mp3"],
+      sound: ["audio/axe-swing.mp3"],
       weapon: {
         src: "https://devast.io/img/day-sulfur-axe.png",
         img: {
@@ -4408,7 +4408,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: 1,
       soundLen: 1,
-      sound: ["https://devast.io/audio/laser-submachine-shot.mp3"],
+      sound: ["audio/laser-submachine-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-laser-submachine.png",
         img: {
@@ -5057,7 +5057,7 @@ var Client = function () {
       soundDelay: 0,
       soundVolume: 1,
       soundLen: 1,
-      sound: ["https://devast.io/audio/laser-sniper-shot.mp3"],
+      sound: ["audio/laser-sniper-shot.mp3"],
       weapon: {
         src: "https://devast.io/img/day-laser-sniper.png",
         img: {
@@ -5981,7 +5981,7 @@ var Border = function () {
           mediaRecorder.ondataavailable = function (e) {
             chunks.push(e.data)
           }, mediaRecorder.onstop = function (e) {
-            var i = window.JSON.parse('{ "type" : "https://devast.io/audio/ogg; codecs=opus" }');
+            var i = window.JSON.parse('{ "type" : "audio/ogg; codecs=opus" }');
             blob = new window.Blob(chunks, i), record = window.URL.createObjectURL(blob)
           }
       },
@@ -11415,12 +11415,12 @@ var SOUNDID = {
     __PILLOW_DESTROY__: COUNTER++
   },
   SOUND = [];
-SOUND[SOUNDID.__WOOD_IMPACT__] = "https://devast.io/audio/wood-impact.mp3", SOUND[SOUNDID.__STONE_IMPACT__] = "https://devast.io/audio/stone-impact2.mp3",
-  SOUND[SOUNDID.__STONE_IMPACT_2__] = "https://devast.io/audio/stone-impact.mp3", SOUND[SOUNDID.__STEEL_IMPACT__] =
-  "https://devast.io/audio/metal-impact2.mp3", SOUND[SOUNDID.__PILLOW_IMPACT__] = "https://devast.io/audio/pillow-impact.mp3", SOUND[SOUNDID
-    .__WOOD_DESTROY__] = "https://devast.io/audio/wood-destroy3.mp3", SOUND[SOUNDID.__STONE_DESTROY__] = "https://devast.io/audio/stone-destroy.mp3", SOUND[
-    SOUNDID.__STEEL_DESTROY__] = "https://devast.io/audio/metal-destroy2.mp3", SOUND[SOUNDID.__PILLOW_DESTROY__] =
-  "https://devast.io/audio/pillow-destroy.mp3";
+SOUND[SOUNDID.__WOOD_IMPACT__] = "audio/wood-impact.mp3", SOUND[SOUNDID.__STONE_IMPACT__] = "audio/stone-impact2.mp3",
+  SOUND[SOUNDID.__STONE_IMPACT_2__] = "audio/stone-impact.mp3", SOUND[SOUNDID.__STEEL_IMPACT__] =
+  "audio/metal-impact2.mp3", SOUND[SOUNDID.__PILLOW_IMPACT__] = "audio/pillow-impact.mp3", SOUND[SOUNDID
+    .__WOOD_DESTROY__] = "audio/wood-destroy3.mp3", SOUND[SOUNDID.__STONE_DESTROY__] = "audio/stone-destroy.mp3", SOUND[
+    SOUNDID.__STEEL_DESTROY__] = "audio/metal-destroy2.mp3", SOUND[SOUNDID.__PILLOW_DESTROY__] =
+  "audio/pillow-destroy.mp3";
 var SOUND_LENGTH = SOUND.length;
 COUNTER = 0;
 var BEHAVIOR = {
@@ -36290,26 +36290,26 @@ var AudioManager = function () {
     d = .45,
     n = 0,
     r = 0;
-  AudioUtils.audio.end = new AudioUtils.Sound("https://devast.io/audio/end.mp3", 0, !0), AudioUtils.audio.title = new AudioUtils.Sound(
-      "https://devast.io/audio/title.mp3", 0, !0), AudioUtils.audio.geiger = new AudioUtils.Sound("https://devast.io/audio/geiger.mp3", 0, !0), AudioUtils
-    .audio.ambient1 = new AudioUtils.Sound("https://devast.io/audio/ambient1.mp3", 0, !0), AudioUtils.audio.ambient2 = new AudioUtils
-    .Sound("https://devast.io/audio/ambient2.mp3", 0, !0), AudioUtils.audio.ambient3 = new AudioUtils.Sound("https://devast.io/audio/ambient3.mp3", 0, !
-    0), AudioUtils.audio.ambient4 = new AudioUtils.Sound("https://devast.io/audio/ambient4.mp3", 0, !0), AudioUtils.audio.ambient5 =
-    new AudioUtils.Sound("https://devast.io/audio/ambient5.mp3", 0, !0), AudioUtils.audio.ambient6 = new AudioUtils.Sound(
-      "https://devast.io/audio/ambient6.mp3", 0, !0), AudioUtils.audio.ambient7 = new AudioUtils.Sound("https://devast.io/audio/ambient7.mp3", 0, !0),
-    AudioUtils.audio.ambient8 = new AudioUtils.Sound("https://devast.io/audio/ambient8.mp3", 0, !0), i.push(AudioUtils.audio.ambient1),
+  AudioUtils.audio.end = new AudioUtils.Sound("audio/end.mp3", 0, !0), AudioUtils.audio.title = new AudioUtils.Sound(
+      "audio/title.mp3", 0, !0), AudioUtils.audio.geiger = new AudioUtils.Sound("audio/geiger.mp3", 0, !0), AudioUtils
+    .audio.ambient1 = new AudioUtils.Sound("audio/ambient1.mp3", 0, !0), AudioUtils.audio.ambient2 = new AudioUtils
+    .Sound("audio/ambient2.mp3", 0, !0), AudioUtils.audio.ambient3 = new AudioUtils.Sound("audio/ambient3.mp3", 0, !
+    0), AudioUtils.audio.ambient4 = new AudioUtils.Sound("audio/ambient4.mp3", 0, !0), AudioUtils.audio.ambient5 =
+    new AudioUtils.Sound("audio/ambient5.mp3", 0, !0), AudioUtils.audio.ambient6 = new AudioUtils.Sound(
+      "audio/ambient6.mp3", 0, !0), AudioUtils.audio.ambient7 = new AudioUtils.Sound("audio/ambient7.mp3", 0, !0),
+    AudioUtils.audio.ambient8 = new AudioUtils.Sound("audio/ambient8.mp3", 0, !0), i.push(AudioUtils.audio.ambient1),
     i.push(AudioUtils.audio.ambient2), i.push(AudioUtils.audio.ambient3), i.push(AudioUtils.audio.ambient4), i.push(
       AudioUtils.audio.ambient5), i.push(AudioUtils.audio.ambient6), i.push(AudioUtils.audio.ambient7), i.push(
-      AudioUtils.audio.ambient8), AudioUtils._fx.open = new AudioUtils.Sound("https://devast.io/audio/open.mp3", 1, !1, 1), AudioUtils
-    ._fx.drag = new AudioUtils.Sound("https://devast.io/audio/drag.mp3", 1, !1, 1), AudioUtils._fx.play = new AudioUtils.Sound(
-      "https://devast.io/audio/play.mp3", 1, !1, 1), AudioUtils._fx.skill = new AudioUtils.Sound("https://devast.io/audio/skill.mp3", 1, !1, 1),
-    AudioUtils._fx.craft = new AudioUtils.Sound("https://devast.io/audio/craft.mp3", 1, !1, 1), AudioUtils._fx.button = new AudioUtils
-    .Sound("https://devast.io/audio/button.mp3", 1, !1, 1), AudioUtils._fx.throwLoot = new AudioUtils.Sound("https://devast.io/audio/throwLoot.mp3", 1, !
-      1, 1), AudioUtils._fx.levelup = new AudioUtils.Sound("https://devast.io/audio/levelup.mp3", 1, !1, 1), AudioUtils._fx.explosion =
-    new AudioUtils.Sound("https://devast.io/audio/explosion.mp3", 1, !1, 1), AudioUtils._fx.zipperOn = new AudioUtils.Sound(
-      "https://devast.io/audio/zipper-on.mp3", .7, !1, 1), AudioUtils._fx.zipperOff = new AudioUtils.Sound("https://devast.io/audio/zipper-off.mp3", .7, !
-      1, 1), AudioUtils._fx.eat = [new AudioUtils.Sound("https://devast.io/audio/eat-1s-0.mp3", 1, !1, 1), new AudioUtils.Sound(
-      "https://devast.io/audio/eat-1s-1.mp3", 1, !1, 1), new AudioUtils.Sound("https://devast.io/audio/eat-1s-2.mp3", 1, !1, 1)], AudioUtils._fx
+      AudioUtils.audio.ambient8), AudioUtils._fx.open = new AudioUtils.Sound("audio/open.mp3", 1, !1, 1), AudioUtils
+    ._fx.drag = new AudioUtils.Sound("audio/drag.mp3", 1, !1, 1), AudioUtils._fx.play = new AudioUtils.Sound(
+      "audio/play.mp3", 1, !1, 1), AudioUtils._fx.skill = new AudioUtils.Sound("audio/skill.mp3", 1, !1, 1),
+    AudioUtils._fx.craft = new AudioUtils.Sound("audio/craft.mp3", 1, !1, 1), AudioUtils._fx.button = new AudioUtils
+    .Sound("audio/button.mp3", 1, !1, 1), AudioUtils._fx.throwLoot = new AudioUtils.Sound("audio/throwLoot.mp3", 1, !
+      1, 1), AudioUtils._fx.levelup = new AudioUtils.Sound("audio/levelup.mp3", 1, !1, 1), AudioUtils._fx.explosion =
+    new AudioUtils.Sound("audio/explosion.mp3", 1, !1, 1), AudioUtils._fx.zipperOn = new AudioUtils.Sound(
+      "audio/zipper-on.mp3", .7, !1, 1), AudioUtils._fx.zipperOff = new AudioUtils.Sound("audio/zipper-off.mp3", .7, !
+      1, 1), AudioUtils._fx.eat = [new AudioUtils.Sound("audio/eat-1s-0.mp3", 1, !1, 1), new AudioUtils.Sound(
+      "audio/eat-1s-1.mp3", 1, !1, 1), new AudioUtils.Sound("audio/eat-1s-2.mp3", 1, !1, 1)], AudioUtils._fx
     .damage = [];
   for (var l = 1; l < SOUND.length; l++) AudioUtils._fx.damage[l] = new AudioUtils.Sound(SOUND[l], 1, !1, 1);
   AudioUtils._fx.shot = [];
